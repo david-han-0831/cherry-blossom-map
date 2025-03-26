@@ -51,15 +51,3 @@ pnpm dev
 NEXT_PUBLIC_NCP_CLIENT_ID=your_client_id
 NEXT_PUBLIC_NCP_CLIENT_SECRET=your_client_cecret_id
 NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key
-
-
-## 프로젝트 구조
-cherry-blossom-map/
-├── app/ # Next.js 앱 라우터
-├── components/ # 재사용 가능한 컴포넌트
-├── data/ # 정적 데이터
-├── hooks/ # 커스텀 훅
-├── lib/ # 유틸리티 함수
-├── public/ # 정적 파일
-├── styles/ # 전역 스타일
-└── types/ # TypeScript 타입 정의
