@@ -47,7 +47,8 @@ pnpm dev
 
 `.env.local` 파일을 생성하고 다음 환경 변수를 설정하세요:
 
-
+```
 NEXT_PUBLIC_NCP_CLIENT_ID=your_client_id
 NEXT_PUBLIC_NCP_CLIENT_SECRET=your_client_cecret_id
 NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key
+```
