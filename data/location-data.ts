@@ -3,46 +3,7 @@ import type { LocationData } from "@/types/location"
 export const locationData: LocationData = {
   // 일반 장소들 (마커로 표시)
   "locations": [
-    {
-      "id": 1,
-      "name": "경안천 벚꽃길",
-      "address": "경기도 광주시 경안동",
-      "latitude": 37.41,
-      "longitude": 127.2574,
-      "description": "경안천을 따라 이어지는 아름다운 벚꽃 산책로"
-    },
-    {
-      "id": 2,
-      "name": "광주 중앙공원",
-      "address": "경기도 광주시 송정동 105",
-      "latitude": 37.4292,
-      "longitude": 127.2552,
-      "description": "도심 속 벚꽃 명소, 산책하기 좋은 공원"
-    },
-    {
-      "id": 3,
-      "name": "광주 퇴촌 벚꽃길",
-      "address": "경기도 광주시 퇴촌면",
-      "latitude": 37.4734,
-      "longitude": 127.3189,
-      "description": "한적한 시골길의 벚꽃 풍경"
-    },
-    {
-      "id": 4,
-      "name": "남한산성 벚꽃길",
-      "address": "경기도 광주시 중부면 남한산성로 731",
-      "latitude": 37.4759,
-      "longitude": 127.1812,
-      "description": "세계문화유산과 함께 즐기는 벚꽃"
-    },
-    {
-      "id": 5,
-      "name": "광주 초월 벚꽃길",
-      "address": "경기도 광주시 초월읍",
-      "latitude": 37.3769,
-      "longitude": 127.2473,
-      "description": "한적한 시골길의 벚꽃 풍경"
-    },
+    
     {
       "id": 6,
       "name": "중대물빛공원",
@@ -74,6 +35,14 @@ export const locationData: LocationData = {
       "latitude": 37.3855836,
       "longitude": 127.299526,
       "description": "도로를 따라 조성된 아름다운 벚꽃길"
+    },
+    {
+        "id": 10,
+        "name": "광주시호국보훈공원",
+        "address": "경기 광주시 경안로98번길 30",
+        "latitude": 37.4093608,
+        "longitude": 127.2512887,
+        "description": "호국보훈의 의미와 함께 즐기는 벚꽃 명소"
     }
   ],
   "driveCourses": [
